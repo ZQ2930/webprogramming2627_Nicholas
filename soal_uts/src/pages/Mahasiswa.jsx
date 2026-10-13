@@ -1,5 +1,3 @@
-// TODO 13
-// Buat component  function dengan nama Mahasiswa
 export default function Mahasiswa (){
   return(
     <div>
@@ -16,4 +14,3 @@ export default function Mahasiswa (){
     </div>
   );
 }
-// lakukan commit  "selesai TODO 13" dan push 
