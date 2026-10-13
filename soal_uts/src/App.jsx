@@ -1,10 +1,8 @@
 import './assets/style.css';
 import { Routes, Route } from 'react-router-dom';
-
 import Header from './components/layout/Header';
 import SideBar from './components/layout/SideBar';
 import Footer from './components/layout/Footer';
-
 import Beranda from './pages/Beranda';
 import Profil from './pages/Profil';
 import Riset from './pages/Riset';
@@ -13,10 +11,8 @@ import Mahasiswa from './pages/Mahasiswa';
 import LainLain from './pages/LainLain';
 import NotFound from './pages/NotFound';
 import Berita from './pages/Berita';
-
 function App() {
   return (
-    
     <div className="container">
       <Header />
       <div className="main-wrapper">
@@ -38,5 +34,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
