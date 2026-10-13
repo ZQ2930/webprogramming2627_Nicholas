@@ -4,11 +4,16 @@
 // TODO 1  Import Komponen Layout (Header, SideBar, Footer)
 import Header from './components/Header';
 import SideBar from './components/SideBar';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
 // lakukan commit "selesai TODO 1" dan push 
 
 // TODO 2  komponen Pages (Beranda, Profil, dll)
-
+import Beranda from './pages/Beranda';
+import Profil from './pages/Profil';
+import Riset from './pages/Riset';
+import Pendidikan from './pages/Pendidikan';
+import Mahasiswa from './pages/Mahasiswa';
+import LainLain from './pages/LainLain';
 // lakukan commit "selesai TODO 2" dan push 
 
 function App() {
