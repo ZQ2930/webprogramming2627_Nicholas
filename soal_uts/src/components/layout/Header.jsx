@@ -23,6 +23,7 @@ function Header() {
                 <NavLink to="/pendidikan">Pendidikan</NavLink>
                 <NavLink to="/riset">Riset</NavLink>
                 <NavLink to="/mahasiswa">Mahasiswa</NavLink>
+                <NavLink to="/berita">Berita</NavLink>
                 <NavLink to="/lainlain">LainLain</NavLink>
             </nav>
         </header>

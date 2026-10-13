@@ -14,6 +14,8 @@ import Riset from './pages/Riset';
 import Pendidikan from './pages/Pendidikan';
 import Mahasiswa from './pages/Mahasiswa';
 import LainLain from './pages/LainLain';
+import NotFound from './pages/NotFound';
+import Berita from './pages/Berita';
 // lakukan commit "selesai TODO 2" dan push 
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
             <Route path="/riset" element={<Riset />} />
             <Route path="/mahasiswa" element={<Mahasiswa />} />
             <Route path="/lainlain" element={<LainLain />} />
+            <Route path="/berita" element={<Berita />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
          {/* TODO 4 SideBar */}
