@@ -19,6 +19,11 @@ function Header() {
             </div>
             <nav className="nav-menu">
                 <NavLink to="/">Beranda</NavLink>
+                <NavLink to="/profil">Profil</NavLink>
+                <NavLink to="/pendidikan">Pendidikan</NavLink>
+                <NavLink to="/riset">Riset</NavLink>
+                <NavLink to="/mahasiswa">Mahasiswa</NavLink>
+                <NavLink to="/lainlain">LainLain</NavLink>
             </nav>
         </header>
     );
