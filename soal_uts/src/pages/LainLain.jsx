@@ -1,6 +1,3 @@
-// TODO 10
-// 1. Buat component  function dengan nama LainLain
-//2. isi adalah sebagai berikut 
 export default function LainLain() {
   return(
     <div>
@@ -14,4 +11,3 @@ export default function LainLain() {
     </div>
   );
 }
-// 3. lakukan commit dan push 
