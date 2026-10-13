@@ -2,7 +2,7 @@
 import { NavLink } from 'react-router-dom';
 import bgGambar from '../../assets/header-bg.png';
 
-function Header() {
+export default function Header() {
     return (
         <header
             className="header-area"
@@ -34,4 +34,3 @@ function Header() {
 //    - Di bawah header-text ada <nav> className="nav-menu" berisi <NavLink> menuju ke "/" dengan label "Beranda"
 // 5. lakukan push dan commit "selesai TODO 9" dengan todo 9
 }
-export default Header;
