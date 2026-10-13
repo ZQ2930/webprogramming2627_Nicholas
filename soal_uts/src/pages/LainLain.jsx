@@ -12,4 +12,5 @@ function LainLain() {
     </p>
   </div>
 }
+export default LainLain;
 // 3. lakukan commit dan push 
