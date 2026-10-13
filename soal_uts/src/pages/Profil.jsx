@@ -1,5 +1,3 @@
-// TODO 15
-//Buat component  function dengan nama Profil
 export default function Profil (){
   return(
     <div>
@@ -10,5 +8,3 @@ export default function Profil (){
     </div>
   );
 }
-// lakukan commit "selesai TODO 15" dan push 
-
