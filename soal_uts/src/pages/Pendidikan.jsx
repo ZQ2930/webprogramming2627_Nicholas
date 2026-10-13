@@ -1,5 +1,3 @@
-// TODO 14
-//  Buat component  function dengan nama Pendidikan
 export default function Pendidikan(){
   return(
     <div>
@@ -16,5 +14,3 @@ export default function Pendidikan(){
     </div>
   );
 }
-// lakukan commit "selesai TODO 14" dan push 
-
