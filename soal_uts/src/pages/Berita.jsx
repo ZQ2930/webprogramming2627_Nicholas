@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 
-function Berita() {
+export default function Berita() {
     const navigate = useNavigate();
 
     return (
@@ -17,4 +17,3 @@ function Berita() {
         </div>
     );
 }
-export default Berita;
