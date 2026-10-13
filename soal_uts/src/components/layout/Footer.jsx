@@ -10,3 +10,5 @@ function Footer() {
         <footer className="footer-area"> Copyright © Prodi Informatika | HTML5 | CSS | ReactJS Fundamentals </footer>
     );
 }
+
+export default Footer;
