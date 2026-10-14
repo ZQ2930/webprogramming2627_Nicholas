@@ -11,6 +11,7 @@ import Mahasiswa from './pages/Mahasiswa';
 import LainLain from './pages/LainLain';
 import NotFound from './pages/NotFound';
 import Berita from './pages/Berita';
+import Array from './pages/Array';
 function App() {
   return (
     <div className="container">
@@ -25,6 +26,7 @@ function App() {
             <Route path="/mahasiswa" element={<Mahasiswa />} />
             <Route path="/lainlain" element={<LainLain />} />
             <Route path="/berita" element={<Berita />} />
+            <Route path="/array" element={<Array />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
