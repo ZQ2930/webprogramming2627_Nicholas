@@ -1,6 +1,7 @@
 import './App.css'
 import KartuRingaksan from './component/KartuRingkasan'
 import TransaksiItem from './component/TransaksiItem'
+import WalletSummary from './component/WalletSummary'
 // import transaksi Item 
 // import kartu Ringkasan
 // import badge
@@ -18,6 +19,7 @@ function App() {
           <KartuRingaksan />
           {/* Route Badge */}
           {/* Route WalletSummary */}
+          <WalletSummary />
           
 
       
