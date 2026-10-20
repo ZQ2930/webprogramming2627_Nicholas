@@ -6,7 +6,6 @@ import TransaksiItem from './component/TransaksiItem'
 // import badge
 // WalletSummary
 
-
 function App() {
   return (
     <>
