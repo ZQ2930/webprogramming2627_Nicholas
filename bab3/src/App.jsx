@@ -1,5 +1,5 @@
 import './App.css'
-
+import TransaksiItem from './component/TransaksiItem'
 // import transaksi Item 
 // import kartu Ringkasan
 // import badge
@@ -13,6 +13,7 @@ function App() {
   
           {/* Tempat untuk komponen  */}
           {/* Route transaksiItem */}
+          <TransaksiItem />
           {/* Route KartuRingaksan */}
           {/* Route Badge */}
           {/* Route WalletSummary */}
