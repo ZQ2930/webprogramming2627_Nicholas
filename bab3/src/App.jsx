@@ -1,6 +1,6 @@
 import './App.css'
-import KartuRingaksan from './components/KartuRingkasan'
-import TransaksiItem from './components/TransaksiItem'
+import KartuRingaksan from './component/KartuRingkasan'
+import TransaksiItem from './component/TransaksiItem'
 // import transaksi Item 
 // import kartu Ringkasan
 // import badge
