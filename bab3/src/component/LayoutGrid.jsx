@@ -1,11 +1,11 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap"
 
 function LayoutGrid() {
     return (
         <Container className="my-4">
             <Row>
                 {/* Mengambil 8 dari 12 kolom pada layar sedang/besar */}
-                <Col md={8}>
+                <Col md={4}>
                     <div className="p-3 bg-light">Ringkasan Saldo</div>
                 </Col>
             </Row>
