@@ -1,7 +1,7 @@
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 
-function AppNavigation() {
+function AppNavigation(){
     return (
         <Navbar bg='dark' variant='dark' expand='lg' className='mb-4'>
             <Container>
@@ -10,6 +10,7 @@ function AppNavigation() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link as={NavLink} to="/">Home</Nav.Link>
+                        <Nav.Link as={NavLink} to="/transaksi">Transaksi</Nav.Link>
                         <NavDropdown title="Menu" id="basic-nav-dropdown">
                             <NavDropdown.Item as={NavLink} to="/badge">Badge</NavDropdown.Item>
                             <NavDropdown.Item as={NavLink} to="/CardStatusDemo">CardStatusDemo</NavDropdown.Item>
