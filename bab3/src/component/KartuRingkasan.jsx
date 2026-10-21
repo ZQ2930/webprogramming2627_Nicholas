@@ -1,4 +1,4 @@
-export default function KartuRingaksan() {
+export default function KartuRingkasan() {
     const cardStyle = {
         padding: '20px',
         border: '1px solid #dee2e6',
