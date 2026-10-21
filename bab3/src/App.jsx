@@ -10,19 +10,12 @@ import WalletSummary from './component/WalletSummary'
 function App() {
   return (
     <>
-      {/* buat Routes */}
-  
-          {/* Tempat untuk komponen  */}
-          {/* Route transaksiItem */}
-          <TransaksiItem />
-          {/* Route KartuRingaksan */}
-          <KartuRingaksan />
-          {/* Route Badge */}
-          {/* Route WalletSummary */}
-          <WalletSummary />
-          
-
-      
+      <Routes>
+        <Route path='/transaksi' element={<TransaksiItem />} />
+        <Route path='/kartu' element={<KartuRingkasan />} />
+        <Route path='/badge' element={<Badge />} />
+        <Route path='/wallet' element={<WalletSummary />} />
+      </Routes>
     </>
   )
 }
