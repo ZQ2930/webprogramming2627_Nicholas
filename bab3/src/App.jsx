@@ -1,12 +1,9 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import KartuRingaksan from './component/KartuRingkasan'
 import TransaksiItem from './component/TransaksiItem'
 import WalletSummary from './component/WalletSummary'
-// import transaksi Item 
-// import kartu Ringkasan
-// import badge
-// WalletSummary
-
+import  Badge  from 'react-bootstrap'
 function App() {
   return (
     <>
