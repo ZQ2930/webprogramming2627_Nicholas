@@ -3,7 +3,7 @@ import './App.css'
 import KartuRingkasan from './component/KartuRingkasan'
 import TransaksiItem from './component/TransaksiItem'
 import WalletSummary from './component/WalletSummary'
-import  Badge  from './component/Badge'
+import Badge from './component/Badge'
 function App() {
   return (
     <>
