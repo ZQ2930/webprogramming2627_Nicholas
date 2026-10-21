@@ -4,6 +4,7 @@ import KartuRingkasan from './component/KartuRingkasan'
 import TransaksiItem from './component/TransaksiItem'
 import WalletSummary from './component/WalletSummary'
 import Badge from './component/Badge'
+import LayoutGrid from './component/LayoutGrid'
 function App() {
   return (
     <>
