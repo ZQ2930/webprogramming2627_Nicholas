@@ -1,8 +1,8 @@
-import { useState } from "react";
-import { Form, InputGroup, Modal, Button, Table, ProgressBar } from 'react-bootstrap';
+import {useState} from 'react'
+import { Form, InputGroup, Modal, Button, Table, ProgressBar } from 'react-bootstrap'
 
 function TransactionManager() {
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState(false)
 
     const handleClose = () => setShow(false)
     const handleShow = () => setShow(true)
@@ -17,14 +17,14 @@ function TransactionManager() {
             <ProgressBar now={75} label="75%" variant="warning" className="mb-4" />
 
             <Table striped bordered hover responsive>
-                <thread>
+                <thead>
                     <tr>
                         <th>#</th>
                         <th>Keterangan</th>
                         <th>Kategori</th>
                         <th>Nominal</th>
                     </tr>
-                </thread>
+                </thead>
                 <tbody>
                     <tr>
                         <td>1</td>
