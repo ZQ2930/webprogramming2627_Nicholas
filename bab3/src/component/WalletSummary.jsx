@@ -1,4 +1,4 @@
-import { Container, Card, Button, Badge } from 'react-bootstrap'
+import { Container, Card, Button, Badge } from 'react-bootstrap';
 
 export default function WalletSummary() {
     return (
