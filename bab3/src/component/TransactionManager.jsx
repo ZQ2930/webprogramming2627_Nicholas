@@ -21,7 +21,7 @@ function TransactionManager() {
             });
     };
 
-    useEffect (() => {
+    useEffect(() => {
         ambilData();
     }, []);
 
