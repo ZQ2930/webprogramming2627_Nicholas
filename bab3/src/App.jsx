@@ -19,11 +19,11 @@ function App() {
         <Route path='/kartu' element={ <KartuRingkasan />} />
         <Route path='/badge' element={ <Badge />} />
         <Route path='/wallet' element={ <WalletSummary />} />
-        <Route path='/LayoutGrid' element={ <LayoutGrid/>  } />
-        <Route path='/HeaderBanner' element={ <HeaderBanner/>  } />
-        <Route path='/CardStatusDemo' element={ <CardStatusDemo/> } />
-        <Route path='/TransactionManager' element={ <TransactionManager/> } />
-        <Route path='/AppNavigation' element={ <AppNavigation/> } />
+        <Route path='/LayoutGrid' element={ <LayoutGrid />  } />
+        <Route path='/HeaderBanner' element={ <HeaderBanner />  } />
+        <Route path='/CardStatusDemo' element={ <CardStatusDemo /> } />
+        <Route path='/TransactionManager' element={ <TransactionManager /> } />
+        <Route path='/AppNavigation' element={ <AppNavigation /> } />
       </Routes>
     </>
   )
