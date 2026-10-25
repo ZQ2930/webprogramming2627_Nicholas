@@ -21,8 +21,8 @@ function TransactionManager() {
     };
 
     useEffect (() => {
-        ambilData()
-    }, [])
+        ambilData();
+    }, []);
 
     return (
         <div className="container mt-4">
