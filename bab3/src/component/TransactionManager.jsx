@@ -42,6 +42,7 @@ function TransactionManager() {
     }, []);
 
     return (
+        /*<AppNavigation />*/
         <div className="container mt-4">
         <div className="d-flex justify-content-between align-items-center mb-3">
             <h3>Penggunaan Anggaran</h3>
