@@ -9,7 +9,7 @@ function TransactionManager() {
     const handleClose = () => setShow(false)
     const handleShow = () => setShow(true)
 
-    const ambilData = () => {
+    /*const ambilData = () => {
         fetch('http://localhost:3000/transaksi')
             .then ((response) => response.json())
             .then((data) => {
@@ -19,10 +19,26 @@ function TransactionManager() {
             .catch((error) => {
                 console.error('Terjadi kesalahan:',error)
             });
+    };*/
+
+    const ambilDataAsync = async () =>{
+        try {
+            const response = await fetch('http://localhost:3000/transaksi');
+            if (!response.ok) {
+                throw new Error ('Gagal mengambil data dari server');
+            }
+            const data = await response.json();
+            console.log ('Data diterima:', data);
+            setTransaksi(data);
+        } 
+        catch (error) {
+            console.error('Error:', error.message);
+        }
     };
 
     useEffect(() => {
-        ambilData();
+        /*ambilData();*/
+        ambilDataAsync();
     }, []);
 
     return (
