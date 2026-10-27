@@ -15,7 +15,7 @@ function FormTambahTransaksi() {
         setSukses(false);
 
         try {
-            const response = await fetch('https://api.example.com/transaksi', {
+            const response = await fetch('http://localhost:3000/transaksi', {
                 method: 'POST',
                 headers: {
                 'Content-Type': 'application/json',

@@ -9,6 +9,11 @@ import AppNavigation from './component/AppNavigation';
 import HeaderBanner from './component/HeaderBanner';
 import CardStatusDemo from './component/CardStatusDemo';
 import TransactionManager from './component/TransactionManager';
+import DaftarTugas from './component/DaftarTugas';
+import DaftarTugasFunction from './component/DaftarTugasFunction';
+import FormTambahTransaksi from './component/FormTambahTransaksi';
+import PostListFetch from './component/PostListFetch';
+import PostListAxios from './component/PostListAxios';
 
 function App() {
   return (
@@ -30,6 +35,17 @@ function App() {
         <Route path='/CardStatusDemo' element={ <CardStatusDemo/> } />
         <Route path='/TransactionManager' element={ <TransactionManager/> } />
         <Route path='/AppNavigation' element={ <AppNavigation/> } />
+        <Route path="/DaftarTugas" element={<DaftarTugas />} />
+        <Route
+          path="/DaftarTugasFunction"
+          element={<DaftarTugasFunction />}
+        />
+        <Route
+          path="/FormTambahTransaksi"
+          element={<FormTambahTransaksi />}
+        />
+        <Route path="/PostListFetch" element={<PostListFetch />} />
+        <Route path="/PostListAxios" element={<PostListAxios />} />
       </Routes>
     </>
   )
