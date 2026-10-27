@@ -17,7 +17,14 @@ function App() {
       <Routes>
         <Route path='/transaksi' element={ <TransaksiItem />} />
         <Route path='/kartu' element={ <KartuRingkasan />} />
-        <Route path='/badge' element={ <Badge />} />
+        <Route path='/badge' element={
+          <main>
+            <Badge tipe="Pemasukan">+ Rp 50.000</Badge>
+            <Badge tipe="Pengeluaran">- Rp 50.000</Badge>
+            <Badge tipe="Pemasukan">+ Rp 50.000</Badge>
+            <Badge tipe="Pengeluaran">- Rp 50.000</Badge>
+          </main>
+        } />
         <Route path='/wallet' element={ <WalletSummary />} />
         <Route path='/LayoutGrid' element={ <LayoutGrid/>  } />
         <Route path='/HeaderBanner' element={ <HeaderBanner/>  } />
