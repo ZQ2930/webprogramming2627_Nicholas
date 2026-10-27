@@ -22,8 +22,6 @@ function App() {
           <main>
             <Badge tipe="Pemasukan">+ Rp 50.000</Badge>
             <Badge tipe="Pengeluaran">- Rp 50.000</Badge>
-            <Badge tipe="Pemasukan">+ Rp 50.000</Badge>
-            <Badge tipe="Pengeluaran">- Rp 50.000</Badge>
           </main>
         } />
         <Route path='/wallet' element={ <WalletSummary />} />

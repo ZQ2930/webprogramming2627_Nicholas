@@ -37,10 +37,10 @@ export default function CardStatusDemo() {
                 <Dropdown as={ButtonGroup}>
                     <Button variant="primary">Ekspor Laporan</Button>
                     <Dropdown.Toggle split variant="primary" id="dropdown-split-basic" />
-                    <Dropdown.menu>
+                    <Dropdown.Menu>
                         <Dropdown.Item href="#/pdf">Format PDF</Dropdown.Item>
                         <Dropdown.Item href="#/excel">Format Excel</Dropdown.Item>
-                    </Dropdown.menu>
+                    </Dropdown.Menu>
                 </Dropdown>
             </Card.Body>
         </Card>
