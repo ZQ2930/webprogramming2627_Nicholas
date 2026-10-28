@@ -1,6 +1,4 @@
-
 import { Component } from 'react';
-
 class DaftarTugas extends Component {
     constructor(props) {
         super(props);

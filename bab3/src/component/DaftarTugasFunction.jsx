@@ -5,7 +5,6 @@ function DaftarTugasFunction() {
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-
         const ambilData = async () => {
             try {
                 const response = await fetch(
